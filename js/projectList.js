@@ -18,8 +18,8 @@ $(document).ready(function() {
                         '<div id="proj-SkateSidescroller" class="proj">' +
                         '<img class="proj-img" src="./images/thumbnail_' + uname + '.png" alt="Card image">' +
                         '<div class="center-img-text">' +
-                        '<h1>' + name + '</h1>' +
-                        '<h4>(' + cat + ')</h4>' +
+                        '<h1 class="proj-name">' + name + '</h1>' +
+                        '<h4 class="proj-category">(' + cat + ')</h4>' +
                         '</div>' +
                         '</div>' +
                         '</a>' +

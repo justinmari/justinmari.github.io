@@ -33,6 +33,14 @@ canvas {
     background-color: black;
 }
 
+.bio-img {
+    width: 400px;
+    object-fit: cover;
+    border-radius: 10%;
+    transition: 0.3s;
+    margin: 0px 50px 50px 50px;
+}
+
 /* ---------------------- */
 /* --- screen overlay --- */
 /* ---------------------- */
@@ -94,7 +102,7 @@ div.navright {
     position: fixed;
     z-index: 1000;
     top: 10px;
-    right: 10px;
+    right: 30px;
     color: white;
 }
 
@@ -103,9 +111,10 @@ div.navright {
     z-index: 1000;
     top: 35vh;
     left: 25px;
-    transition: 0.3s;
+    transition: 0.3s ease;
     opacity: 0;
-    transform: scaleY(2);
+    transform: scaleY(0);
+    pointer-events: none;
 }
 
 /* ------------------------------------ */
@@ -119,14 +128,6 @@ div.navright {
     opacity: 0.3;
     border-radius: 10%;
     transition: 0.3s;
-}
-
-.bio-img {
-    width: 400px;
-    object-fit: cover;
-    border-radius: 10%;
-    transition: 0.3s;
-    margin: 0px 50px 50px 50px;
 }
 
 .proj-img:hover {
@@ -153,6 +154,14 @@ div.navright {
     padding: 0px;
     transition: 0.3s;
     color: white;
+}
+
+.proj-name {
+    font-family: 'Raleway', sans-serif;
+}
+
+.proj-category {
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 .center-img-text {
@@ -197,6 +206,7 @@ p.heading {
 }
 
 .resume-heading, .bio-heading, .project-details-heading {
+    font-family: 'Raleway', sans-serif;
     color: #c0b3a0;
 }
 
@@ -274,6 +284,15 @@ p.heading {
         transition: 0.3s;
         margin: 0px 50px 50px 50px;
     }
+
+    div.navleft {
+        position: fixed;
+        z-index: 1000;
+        top: 20px;
+        left: 20px;
+        visibility: visible;
+        transition: 0.7s;
+    }
 }
 
 @media screen and (min-width: 768px) {
@@ -324,6 +343,15 @@ p.heading {
         transition: 0.3s;
         margin: 0px 50px 50px 50px;
     }
+
+    div.navleft {
+        position: fixed;
+        z-index: 1000;
+        top: 50px;
+        left: 50px;
+        visibility: visible;
+        transition: 0.7s;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -366,6 +394,15 @@ p.heading {
         transition: 0.3s;
         font-size: 45px;
     }
+
+    div.navleft {
+        position: fixed;
+        z-index: 1000;
+        top: 50px;
+        left: 50px;
+        visibility: visible;
+        transition: 0.7s;
+    }
 }
 
 @media screen and (min-width: 1200px) {
@@ -407,5 +444,14 @@ p.heading {
         display: inline-block;
         transition: 0.3s;
         font-size: 50px;
+    }
+
+    div.navleft {
+        position: fixed;
+        z-index: 1000;
+        top: 50px;
+        left: 50px;
+        visibility: visible;
+        transition: 0.7s;
     }
 }
