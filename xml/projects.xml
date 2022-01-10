@@ -113,7 +113,17 @@
         </languages>
         <descriptions>
             <description>
-            Ball Game
+            A very early Unity project of mine that I developed even before high school.
+            I believe this is one of the OG Unity tutorials that was published years ago, along with
+            a top down shooter game similar to Galaga and a 2D platformer game.
+            </description>
+            <description>
+            As usual, tutorials start you off by teaching you how to utilize Unity to create objects in a scene. 
+            It also teaches you how to manipulate those objects using Unity's build in physics engine.
+            Using the techniques I learned from the tutorial, I created my own levels and adde my own spin to them.
+            For example, once I learned how to make platforms, I researched how I would be able to move those platforms 
+            along a plane. Shortly, I was able to create a level with a horizontal moving platform, followed by a level 
+            with a vertical moving platform.
             </description>
         </descriptions>
     </project>
@@ -129,7 +139,17 @@
         </languages>
         <descriptions>
             <description>
-            Canvas | JavaScript
+            There are many ways to create a website, but to make unique eyecatching ones is not an easy task.
+            While researching different way to develop a website, I came across a number of JavaScript canvas tutorials 
+            created by Chris Courses.
+            This is what immediately hooked me in JavaScript canvas graphics.
+            </description>
+            <description>
+            These tutorials solidified many programming concepts to me, which range from 2D physics, collision detection,
+            event listeners, and object oriented programming.
+            Also, these tutorials taught me how to use mathematical concepts in code to create beautiful imagery, such as
+            utilizing a sine function to draw a sine wave and editing its parameters to create different styles of waves.
+            If you've ever owned specific PlayStation consoles, you know what beautiful waves I'm talking about.
             </description>
         </descriptions>
     </project>
@@ -143,7 +163,25 @@
         </languages>
         <descriptions>
             <description>
-            Autonomous Robot
+            I always have a knack for building things, whether it be Legos, IKEA furniture, or physics projects (I'm
+            still a bit peeved at my elastic powered car I built in grade 11. The elastics were so strong and performed so well the day before,
+            and then underperformed the day of beacuse of all the testing I put it through).
+            </description>
+            <description>
+            Robotics is a whole nother level. During my autonomous mobile robotics course, we were given a kit of arduinos and sensors to build
+            a robot that could perform certain tasks.
+            </description>
+            <description>
+            One task was to make sure the robot stays inside a a perimeter of electrical tape. Then, on top of that, the robot has to avoid
+            colliding with any objects present withing the perimeter. Putting these two together was a serious task due to the limitations
+            within the code as well as the limited sensors available, but with enough testing, can produce a robot that can maneuver withing the
+            perimeter effectively.
+            </description>
+            <description>
+            Finally, we had to create a track for the robot, where the robot must be able to change lanes (as a car would on a road). It should
+            also go the speed of the object in front of it. Not only that, but the robot should be able to parallel park within an area of
+            specific dimensions.
+            With hard work, I was able to complete both tasks with flying colours. Wall-E would be so proud of me.
             </description>
         </descriptions>
     </project>
@@ -160,7 +198,13 @@
         </languages>
         <descriptions>
             <description>
-            Portfolio Website
+            What you're seeing right now is the site that I am the most proud of.
+            </description>
+            <description>
+            This portfolio site is entirely front-end, using the languages that are listed above.
+            There is some automation using scripts that I have developed myself that I am very proud of.
+            I also utilized by canvas knowledge to improve the uniqueness of the site.
+            It might be a bit empty now, but I plan to add more visuals in the future using the canvas.
             </description>
         </descriptions>
     </project>
@@ -177,7 +221,21 @@
         </languages>
         <descriptions>
             <description>
-            OpenGL Tower Defense
+            This game was a course assingment for a computer graphics course.
+            It involes creating 2D and 3D graphics using C and OpenGL.
+            It also involves the study of the graphics pipeline within OpenGL and the different matrix transformations
+            used in the process.
+            Shading and Raytracing were also very interesting that we touched on during the course.
+            </description>
+            <description>
+            The challenge of this project was the implementation of mathematical concepts within the code.
+            For example, I had to rely on my knowledge in trigonometry to figure out the angles in which the
+            robots need to rotate in order to target the cannon at all times.
+            I also need the angle or rotation to allow the robot wheels to move along their projected path.
+            Prior knowledge in collision detection also came into play, as the robots have to be destroyed once a 
+            bullet collides with it.
+            Finally, my experience in object oriented programming come to be when developing the robots, the cannon, and
+            each projectile that gets redered on the screen. 
             </description>
         </descriptions>
     </project>

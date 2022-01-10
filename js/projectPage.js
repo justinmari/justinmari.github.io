@@ -35,7 +35,7 @@ $(document).ready(function() {
                         $("#navleft").append(
     
                             '<h1 class="name-proj">' + name.toLowerCase() + '</h1>' +
-                            '<a class="navlink navlink-left" href="/index.html">back to home</a>'
+                            '<a class="navlink navlink-left" href="/index.html#projects-anchor">back to projects</a>'
         
                         );
     

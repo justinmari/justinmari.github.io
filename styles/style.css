@@ -124,8 +124,8 @@ div.navright {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    filter: brightness(40%);
-    opacity: 0.3;
+    filter: brightness(60%);
+    opacity: 0.2;
     border-radius: 10%;
     transition: 0.3s;
 }
@@ -134,7 +134,7 @@ div.navright {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    filter: brightness(40%);
+    filter: brightness(60%);
     opacity: 1;
     border-radius: 5%;
     transition: 0.3s;
@@ -293,6 +293,24 @@ p.heading {
         visibility: visible;
         transition: 0.7s;
     }
+
+    .proj-img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        filter: brightness(60%);
+        opacity: 0.7;
+        border-radius: 10%;
+        transition: 0.3s;
+    }
+
+    .proj {
+        width: 100%;
+        height: 100%;
+        padding: 10px;
+        transition: 0.3s;
+        color:white;
+    }
 }
 
 @media screen and (min-width: 768px) {
@@ -352,6 +370,24 @@ p.heading {
         visibility: visible;
         transition: 0.7s;
     }
+
+    .proj-img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        filter: brightness(60%);
+        opacity: 0.3;
+        border-radius: 10%;
+        transition: 0.3s;
+    }
+
+    .proj {
+        width: 100%;
+        height: 100%;
+        padding: 10px;
+        transition: 0.3s;
+        color:#c0b3a0;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -403,6 +439,24 @@ p.heading {
         visibility: visible;
         transition: 0.7s;
     }
+
+    .proj-img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        filter: brightness(60%);
+        opacity: 0.3;
+        border-radius: 10%;
+        transition: 0.3s;
+    }
+
+    .proj {
+        width: 100%;
+        height: 100%;
+        padding: 10px;
+        transition: 0.3s;
+        color:#c0b3a0;
+    }
 }
 
 @media screen and (min-width: 1200px) {
@@ -453,5 +507,23 @@ p.heading {
         left: 50px;
         visibility: visible;
         transition: 0.7s;
+    }
+
+    .proj-img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        filter: brightness(60%);
+        opacity: 0.3;
+        border-radius: 10%;
+        transition: 0.3s;
+    }
+
+    .proj {
+        width: 100%;
+        height: 100%;
+        padding: 10px;
+        transition: 0.3s;
+        color:#c0b3a0;
     }
 }
