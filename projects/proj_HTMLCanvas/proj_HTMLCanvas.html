@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <title>Justin Mari Maliwat - HTML Canvas</title>
+
+    <!-- meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+
+    <!-- aos -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- boostrap css -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- styles -->
+    <link rel="stylesheet" href="../../styles/style.css">
+</head>
+
+<body>
+
+    <div id="screen-overlay" class="screen-overlay">
+    </div>
+
+    <div id="navleft" class="d-none d-lg-block navleft">
+        <h1 class="name">justin mari maliwat</h1>
+        <h1 class="name">html canvas</h1>
+        <a class="navlink navlink-left" href="../../home.html">back to home</a>
+    </div>
+
+    <div class="navright">
+        <a class="navlink navlink-right" href="#">github</a> |
+        <a class="navlink navlink-right" href="#">twitter</a> |
+        <a class="navlink navlink-right" href="#">facebook</a>
+    </div>
+
+    <img data-aos="fade-in" data-aos-duration="3000" src="../../videos/vid_HTMLCanvas.png" class="proj-main-img" playsinline autoplay muted loop>
+
+    <!-- proj details -->
+    <div class="container-fluid p-0">
+        <p data-aos="fade-up" class="heading pt-3">• html canvas •</p>
+        <div data-aos="fade-up" class="row div-project-details">
+
+            <!-- details -->
+            <div class="col-lg col-md col-sm">
+                <div>
+                    <h3 class="project-details-heading">game design | game development</h3>
+                    <p>
+                        The first spark that sent me spiraling into my interest in game design was learning how to create a simple RPG using RPGMaker (I'm a big fan of Undertale). 
+                        This led to many early projects of mine, which ranged from Unity tutorials (Top-Down Space Shooter) to spontaneous bouts of wanting to code (Friend-Inspired Sidescroller Game).
+                        Using my highschool programming classes along with my earlier projects, I developed a solid foundation in the programming basics.
+                    </p>
+                </div>
+            </div>
+            <!-- details end -->
+
+        </div>
+    </div>
+    <!-- proj details end -->
+
+    <div class="container-fluid div-divider"></div>
+
+    <footer>
+        <div class="container-fluid p-0">
+            <p></p>
+        </div>
+    </footer>
+
+    <!-- interactions -->
+    <script>
+
+        var showNavX = 50;
+        var hideNavX = 250;
+
+        var navlinks = document.getElementsByClassName("navlink");
+
+        // on navlink click
+        for (i = 0; i < navlinks.length; i++) {
+            navlinks[i].addEventListener("click", hideNavLeft);
+        }
+
+        // onscroll
+        document.addEventListener("scroll", hideNavLeft);
+
+        function hideNavLeft() {
+            if (window.scrollY < window.innerHeight/2) {
+                document.getElementById("screen-overlay").style.visibility = "hidden";
+                document.getElementById("navleft").style.transform = "translate(0px, 0px)";
+            } else {
+                document.getElementById("screen-overlay").style.visibility = "hidden";
+                document.getElementById("navleft").style.transform = "translate(-1000px, 0px)";
+            }
+        }
+
+        // mouse move
+        document.addEventListener('mousemove', e => {
+            if (!(window.scrollY < window.innerHeight/2)) {
+                if (e.x < showNavX) {
+                    document.getElementById("screen-overlay").style.visibility = "visible";
+                    document.getElementById("navleft").style.transform = "translate(0px, 0px)";
+                } else if (e.x > hideNavX) {
+                    document.getElementById("screen-overlay").style.visibility = "hidden";
+                    document.getElementById("navleft").style.transform = "translate(-1000px, 0px)";
+                    
+                }
+            }
+        });
+
+    </script>
+
+    <!-- aos -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    <!-- jquery | popper | bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+
+</html>
