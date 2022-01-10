@@ -311,6 +311,17 @@ p.heading {
         transition: 0.3s;
         color:white;
     }
+
+    #indicator {
+        position: fixed;
+        z-index: 1000;
+        top: 35vh;
+        left: 15px;
+        transition: 0.3s ease;
+        opacity: 0;
+        transform: scaleY(0);
+        pointer-events: none;
+    }
 }
 
 @media screen and (min-width: 768px) {
@@ -388,6 +399,17 @@ p.heading {
         transition: 0.3s;
         color:#c0b3a0;
     }
+
+    #indicator {
+        position: fixed;
+        z-index: 1000;
+        top: 35vh;
+        left: 25px;
+        transition: 0.3s ease;
+        opacity: 0;
+        transform: scaleY(0);
+        pointer-events: none;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -457,6 +479,17 @@ p.heading {
         transition: 0.3s;
         color:#c0b3a0;
     }
+
+    #indicator {
+        position: fixed;
+        z-index: 1000;
+        top: 35vh;
+        left: 25px;
+        transition: 0.3s ease;
+        opacity: 0;
+        transform: scaleY(0);
+        pointer-events: none;
+    }
 }
 
 @media screen and (min-width: 1200px) {
@@ -525,5 +558,16 @@ p.heading {
         padding: 10px;
         transition: 0.3s;
         color:#c0b3a0;
+    }
+
+    #indicator {
+        position: fixed;
+        z-index: 1000;
+        top: 35vh;
+        left: 25px;
+        transition: 0.3s ease;
+        opacity: 0;
+        transform: scaleY(0);
+        pointer-events: none;
     }
 }
