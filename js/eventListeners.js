@@ -1,5 +1,6 @@
 var showNavX = 50;
 var hideNavX = 250;
+var translateAmount = '2000';
 
 var navlinks = document.getElementsByClassName("navlink");
 
@@ -17,7 +18,7 @@ function hideNavLeft() {
         document.getElementById("navleft").style.transform = "translate(0px, 0px)";
     } else {
         document.getElementById("screen-overlay").style.visibility = "hidden";
-        document.getElementById("navleft").style.transform = "translate(-1000px, 0px)";
+        document.getElementById("navleft").style.transform = "translate(-" + translateAmount + "px, 0px)";
     }
 }
 
@@ -29,7 +30,7 @@ document.addEventListener('mousemove', e => {
             document.getElementById("navleft").style.transform = "translate(0px, 0px)";
         } else if (e.x > hideNavX) {
             document.getElementById("screen-overlay").style.visibility = "hidden";
-            document.getElementById("navleft").style.transform = "translate(-1000px, 0px)";
+            document.getElementById("navleft").style.transform = "translate(-" + translateAmount + "px, 0px)";
             
         }
     }

@@ -83,4 +83,20 @@
         </description>
     </project>
 
+    <project>
+        <universalname>AutonomousRobot</universalname>
+        <name>Autonomous Robot</name>
+        <category>Arduino</category>
+        <languages>
+            <language>C</language>
+        </languages>
+        <description>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+        In egestas erat imperdiet sed euismod nisi porta lorem. 
+        Pharetra et ultrices neque ornare aenean euismod. 
+        Arcu cursus euismod quis viverra nibh.
+        </description>
+    </project>
+
 </projects>

@@ -15,6 +15,14 @@ $(document).ready(function() {
     
                         document.title = 'JMM - ' + name;
 
+                        var langs = '';
+
+                        $(this).find('languages').find('language').each(function() {
+
+                            langs += '<p>' + $(this).text() + '</p>';
+
+                        });
+
                         $("#navleft").append(
     
                             '<h1 class="name-proj">' + name.toLowerCase() + '</h1>' +
@@ -35,9 +43,9 @@ $(document).ready(function() {
                             '<div data-aos="fade-up" class="row div-project-details">' +
                             '<div class="col-lg col-md col-sm">' +
                             '<div>' +
-                            '<h3 class="project-details-heading">Languages Used</h3>' +
-                            '<p>' + desc + '</p>' +
-                            '<h3 class="project-details-heading">Description</h3>' +
+                            '<h3 class="project-details-heading">Languages Used</h3><hr>' +
+                            langs +
+                            '<br><h3 class="project-details-heading">Description</h3><hr>' +
                             '<p>' + desc + '</p>' +
                             '</div>' +
                             '</div>' +
