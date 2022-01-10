@@ -7,14 +7,23 @@
         <category>Unity</category>
         <languages>
             <language>C#</language>
+            <language>Unity 2D</language>
         </languages>
-        <description>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-        In egestas erat imperdiet sed euismod nisi porta lorem. 
-        Pharetra et ultrices neque ornare aenean euismod. 
-        Arcu cursus euismod quis viverra nibh.
-        </description>
+        <descriptions>
+            <description>
+            This game is an example of one of my spontaneous bouts of coding.
+            </description>
+            <description>
+            During the summer of one of my highschool years, I decided to revisit Unity and create a game inspired by one of my close friends.
+            I combined his passion in skateboarding with my passion in game development, and this side scrolling skateboarding game was born.
+            </description>
+            <description>
+            This is the first game that I have developed without much help from online resources and where I relied mostly on prior game development experience.
+            I heavily used my prior knowledge in game loops and game state to achieve the final result.
+            I also explored creating power ups which alter the character's traits, such as number of jumps, lives, and speed.
+            All the art and animations are mostly done by yours truly (and yes I know they could use some work).
+            </description>
+        </descriptions>
     </project>
 
     <project>
@@ -24,13 +33,35 @@
         <languages>
             <language>GML</language>
         </languages>
-        <description>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-        In egestas erat imperdiet sed euismod nisi porta lorem. 
-        Pharetra et ultrices neque ornare aenean euismod. 
-        Arcu cursus euismod quis viverra nibh.
-        </description>
+        <descriptions>
+            <description>
+            A game that really impressed me with its minimalistic and unconventional combat system was none other than Toby Fox's Undertale.
+            This game was beautiful in its own right, and it inspired me to try making a game of my own using the same engine: Gamemaker Studio.
+            </description>
+            <description>
+            This game was made following a tutorial series for Gamemaker Studio on YouTube.
+            As I learned each part of the program, I took the idea and ran with it.
+            </description>
+            <description>
+            Introduced how to make a simple AI so slimes follow the player?
+            Create a giant crab boss that charges up for 2 seconds and then rams the player at full speed.
+            </description>
+            <description>
+            Taught how to make enemies drop experience orbs?
+            Make it so that experience orbs and health orbs explode from the enemy and return to the player.
+            </description>
+            <description>
+            Taught how to spawn objects in the game?
+            Allow the player to fire multiple fireballs which hurt and damage enemies (this wasn't actually implemented properly as my tiny brain at the
+            time could not comprehend how to do it).
+            </description>
+            <description>
+            Gamemaker Studio was my first game engine prior to Unity.
+            Its built in language, GML, was very easy to learn and solidified many programming basics that I have learned during highschool.
+            GML introduced me to the idea of scripting, which took me some time to grasp.
+            Simply put, I came to learn that scripts are very useful when tackling unique tasks, and are amazing when those unique tasks come up very often.
+            </description>
+        </descriptions>
     </project>
 
     <project>
@@ -39,14 +70,37 @@
         <category>FPS</category>
         <languages>
             <language>C</language>
+            <language>Unity 3D</language>
         </languages>
-        <description>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-        In egestas erat imperdiet sed euismod nisi porta lorem. 
-        Pharetra et ultrices neque ornare aenean euismod. 
-        Arcu cursus euismod quis viverra nibh.
-        </description>
+        <descriptions>
+            <description>
+            Now this was an interesting game that my university friends and I decided to collaborate often.
+            One of my colleagues suggested we create a game that is similar to the FPS game SUPERHOT.
+            In SUPERHOT, time only moves while you moved, and you have to use firearms or melee weapons to fight enemies.
+            In our game that we've named Hot Pursuit (I know, very original indeed), the main character would also have a mechanic
+            which slows time. But, instead of using firearms or melee weapons, the character has to pop up objects around them
+            using a sort of ground slam. The character can then slow time, causing said objects to slow down while in the air,
+            allowing the charcater to hit the object towards any target or enemy they are aiming at.
+            </description>
+            <description>
+            As one of the members in a group of three, we split into 3 different areas to work on:
+            Enemy AI, Time Slow + Pop Up Mechanic, and Smooth, Buttery Movement Controls.
+            As a big fan of 3D platformers and FPS games with nice movement controls, I was put in charge of developing movement.
+            </description>
+            <description>
+            As one of my only Unity 3D Projects (I stuck mainly to 2D), creating smooth and silky movement was a challenge.
+            One of the team members helped me create a movement state system using stacks.
+            While it took some time to grasp, I was able to understand how the system is able to seamlessly switch from
+            one move state (walking) to another (running, crouching).
+            You can also restrict moving into a specific movestate while in another move state (for example, you can't slide
+            whilst walking, but you can slide when whilst running).
+            I also went out of my way to revisit games which I highly enjoyed the movement in, and mimicked the feel of their controls.
+            </description>
+            <description>
+            It was a very interesting project to work on which helped me learn many things from the use of raycasting to the particle system
+            that Unity has to offer.
+            </description>
+        </descriptions>
     </project>
 
     <project>
@@ -55,14 +109,17 @@
         <category>Unity Tutorial</category>
         <languages>
             <language>C#</language>
+            <language>Unity 3D</language>
         </languages>
-        <description>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-        In egestas erat imperdiet sed euismod nisi porta lorem. 
-        Pharetra et ultrices neque ornare aenean euismod. 
-        Arcu cursus euismod quis viverra nibh.
-        </description>
+        <descriptions>
+            <description>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+            In egestas erat imperdiet sed euismod nisi porta lorem. 
+            Pharetra et ultrices neque ornare aenean euismod. 
+            Arcu cursus euismod quis viverra nibh.
+            </description>
+        </descriptions>
     </project>
 
     <project>
@@ -74,13 +131,15 @@
             <language>HTML</language>
             <language>CSS</language>
         </languages>
-        <description>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-        In egestas erat imperdiet sed euismod nisi porta lorem. 
-        Pharetra et ultrices neque ornare aenean euismod. 
-        Arcu cursus euismod quis viverra nibh.
-        </description>
+        <descriptions>
+            <description>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+            In egestas erat imperdiet sed euismod nisi porta lorem. 
+            Pharetra et ultrices neque ornare aenean euismod. 
+            Arcu cursus euismod quis viverra nibh.
+            </description>
+        </descriptions>
     </project>
 
     <project>
@@ -90,13 +149,15 @@
         <languages>
             <language>C</language>
         </languages>
-        <description>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-        In egestas erat imperdiet sed euismod nisi porta lorem. 
-        Pharetra et ultrices neque ornare aenean euismod. 
-        Arcu cursus euismod quis viverra nibh.
-        </description>
+        <descriptions>
+            <description>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+            In egestas erat imperdiet sed euismod nisi porta lorem. 
+            Pharetra et ultrices neque ornare aenean euismod. 
+            Arcu cursus euismod quis viverra nibh.
+            </description>
+        </descriptions>
     </project>
 
 </projects>

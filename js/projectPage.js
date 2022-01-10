@@ -10,8 +10,8 @@ $(document).ready(function() {
     
                     if ($(this).find('universalname').text() == projectName) {
                         var uname = $(this).find('universalname').text(),
-                            name = $(this).find('name').text(),
-                            desc = $(this).find('description').text();
+                            name = $(this).find('name').text();
+                            
     
                         document.title = 'JMM - ' + name;
 
@@ -22,6 +22,15 @@ $(document).ready(function() {
                             langs += '<p>' + $(this).text() + '</p>';
 
                         });
+
+                        var descs = '';
+
+                        $(this).find('descriptions').find('description').each(function() {
+
+                            descs += '<p>' + $(this).text() + '</p>';
+
+                        });
+
 
                         $("#navleft").append(
     
@@ -46,7 +55,7 @@ $(document).ready(function() {
                             '<h3 class="project-details-heading">Languages Used</h3><hr>' +
                             langs +
                             '<br><h3 class="project-details-heading">Description</h3><hr>' +
-                            '<p>' + desc + '</p>' +
+                            descs +
                             '</div>' +
                             '</div>' +
                             '</div>'
