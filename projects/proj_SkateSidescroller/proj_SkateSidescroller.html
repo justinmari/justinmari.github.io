@@ -3,7 +3,7 @@
 <html lang="en">
 
 <head>
-    <title>Justin Mari Maliwat - Skate Sidecroller</title>
+    <title>Justin Mari Maliwat</title>
 
     <!-- meta tags -->
     <meta charset="utf-8">
@@ -12,8 +12,18 @@
     <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Josefin+Sans:wght@300&family=Vujahday+Script&display=swap" rel="stylesheet">
+
+    <!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script>
+        var projectName = 'SkateSidescroller';
+        $(function(){
+            $("#navright").load("/html/navright.html");
+            $("#scripts").load("/html/scripts.html");
+        });
+    </script>
 
     <!-- aos -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
@@ -30,42 +40,19 @@
     <div id="screen-overlay" class="screen-overlay">
     </div>
 
-    <div id="navleft" class="d-none d-lg-block navleft">
-        <h1 class="name">justin mari maliwat</h1>
-        <h1 class="name">skate sidescroller</h1>
-        <a class="navlink navlink-left" href="/index.html">back to home</a>
+    <div id="navleft" class="navleft">
+        <!-- handled by jquery -->
     </div>
 
-    <div class="navright">
-        <a class="navlink navlink-right" href="#">github</a> |
-        <a class="navlink navlink-right" href="#">twitter</a> |
-        <a class="navlink navlink-right" href="#">facebook</a>
-    </div>
+    <div id="navright" class="navright"></div>
 
-    <video data-aos="fade-in" data-aos-duration="3000" class="proj-main-vid" playsinline autoplay muted loop>
-        <source src="/videos/vid_SkateSidescroller.mp4" type="video/mp4">
-        Your browser does not support the video tag.
+    <video id="proj-main-vid" data-aos="fade-in" data-aos-duration="3000" class="proj-main-vid" playsinline autoplay muted loop>
+        <!-- handled by jquery -->
     </video>
 
     <!-- proj details -->
-    <div class="container-fluid p-0">
-        <p data-aos="fade-up" class="heading pt-3">• skate sidescroller •</p>
-        <div data-aos="fade-up" class="row div-project-details">
-
-            <!-- details -->
-            <div class="col-lg col-md col-sm">
-                <div>
-                    <h3 class="project-details-heading">game design | game development</h3>
-                    <p>
-                        The first spark that sent me spiraling into my interest in game design was learning how to create a simple RPG using RPGMaker (I'm a big fan of Undertale). 
-                        This led to many early projects of mine, which ranged from Unity tutorials (Top-Down Space Shooter) to spontaneous bouts of wanting to code (Friend-Inspired Sidescroller Game).
-                        Using my highschool programming classes along with my earlier projects, I developed a solid foundation in the programming basics.
-                    </p>
-                </div>
-            </div>
-            <!-- details end -->
-
-        </div>
+    <div id="project-details" class="container-fluid p-0">
+        <!-- handled by jquery -->
     </div>
     <!-- proj details end -->
 

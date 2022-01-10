@@ -12,19 +12,19 @@
     <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Josefin+Sans:wght@300&family=Vujahday+Script&display=swap" rel="stylesheet">
 
     <!-- jquery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
     <script> 
+        var projectName = "index";
         $(function(){
             $("#navleft").load("/html/navleft.html");
             $("#navright").load("/html/navright.html");
             $("#scripts").load("/html/scripts.html");
         });
-    </script> 
+    </script>
 
     <!-- aos -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
@@ -44,73 +44,17 @@
 
     <div id="navright" class="navright"></div>
 
-    <canvas data-aos="zoom-in" data-aos-duration="3000"></canvas>
+    <canvas id="index-canvas" data-aos="zoom-in" data-aos-duration="3000"></canvas>
 
     <!-- projects -->
     <div class="container-fluid p-0" id="projects-anchor">
         <p data-aos="fade-up" class="heading pt-3">• projects •</p>
-        <div class="row div-project">
+        <div id="project-list" class="row div-project">
 
             <!-- project list start -->
-            <div data-aos="fade-in" class="col-xl-4 col-lg-6 col-md-6 col-sm-12 pl-1 pr-1 pb-2">
-                <a href="./projects/proj_SkateSidescroller/proj_SkateSidescroller.html">
-                    <div id="proj-SkateSidescroller" class="proj">
-                        <img class="proj-img" src="./images/thumbnail_SkateSidescroller.png" alt="Card image">
-                        <div class="center-img-text">
-                            <h1>Skate Sidescroller</h1>
-                            <h4>(Unity)</h4>
-                        </div>
-                    </div>
-                </a>
-            </div>
 
-            <div data-aos="fade-in" class="col-xl-4 col-lg-6 col-md-6 col-sm-12 pl-1 pr-1 pb-2">
-                <a href="./projects/proj_2DRPG/proj_2DRPG.html">
-                    <div id="proj-2DRPG" class="proj">
-                        <img class="proj-img" src="./images/thumbnail_2DRPG.png" alt="Card image">
-                        <div class="center-img-text">
-                            <h1>2D RPG</h1>
-                            <h4>(RPGMaker)</h4>
-                        </div>
-                    </div>
-                </a>
-            </div>
+            <!-- jquery will append projects here -->
 
-            <div data-aos="fade-in" class="col-xl-4 col-lg-6 col-md-6 col-sm-12 pl-1 pr-1 pb-2">
-                <a href="./projects/proj_HotPursuit/proj_HotPursuit.html">
-                    <div id="proj-HotPursuit" class="proj">
-                        <img class="proj-img" src="./images/thumbnail_HotPursuit.png" alt="Card image">
-                        <div class="center-img-text">
-                            <h1>Hot Pursuit</h1>
-                            <h4>(FPS)</h4>
-                        </div>
-                    </div>
-                </a>
-            </div>
-
-            <div data-aos="fade-in" class="col-xl-4 col-lg-6 col-md-6 col-sm-12 pl-1 pr-1 pb-2">
-                <a href="./projects/proj_BallGame/proj_BallGame.html">
-                    <div id="proj-BallGame" class="proj">
-                        <img class="proj-img" src="./images/thumbnail_BallGame.png" alt="Card image">
-                        <div class="center-img-text">
-                            <h1>Ball Game</h1>
-                            <h4>(Unity Tutorial)</h4>
-                        </div>
-                    </div>
-                </a>
-            </div>
-
-            <div data-aos="fade-in" class="col-xl-4 col-lg-6 col-md-6 col-sm-12 pl-1 pr-1 pb-2">
-                <a href="./projects/proj_HTMLCanvas/proj_HTMLCanvas.html">
-                    <div id="proj-HTMLCanvas" class="proj">
-                        <img class="proj-img" src="./images/thumbnail_HTMLCanvas.png" alt="Card image">
-                        <div class="center-img-text">
-                            <h1>Canvas | JavaScript</h1>
-                            <h4>(HTML)</h4>
-                        </div>
-                    </div>
-                </a>
-            </div>
             <!-- project list end -->
 
         </div>
