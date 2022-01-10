@@ -106,18 +106,14 @@
     <project>
         <universalname>BallGame</universalname>
         <name>Ball Game</name>
-        <category>Unity Tutorial</category>
+        <category>Unity</category>
         <languages>
             <language>C#</language>
             <language>Unity 3D</language>
         </languages>
         <descriptions>
             <description>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-            In egestas erat imperdiet sed euismod nisi porta lorem. 
-            Pharetra et ultrices neque ornare aenean euismod. 
-            Arcu cursus euismod quis viverra nibh.
+            Ball Game
             </description>
         </descriptions>
     </project>
@@ -133,11 +129,7 @@
         </languages>
         <descriptions>
             <description>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-            In egestas erat imperdiet sed euismod nisi porta lorem. 
-            Pharetra et ultrices neque ornare aenean euismod. 
-            Arcu cursus euismod quis viverra nibh.
+            Canvas | JavaScript
             </description>
         </descriptions>
     </project>
@@ -151,11 +143,41 @@
         </languages>
         <descriptions>
             <description>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-            In egestas erat imperdiet sed euismod nisi porta lorem. 
-            Pharetra et ultrices neque ornare aenean euismod. 
-            Arcu cursus euismod quis viverra nibh.
+            Autonomous Robot
+            </description>
+        </descriptions>
+    </project>
+
+    <project>
+        <universalname>PortfolioWebsite</universalname>
+        <name>Portfolio Website</name>
+        <category>Web Development</category>
+        <languages>
+            <language>HTML</language>
+            <language>CSS</language>
+            <language>JavaScript</language>
+            <language>JQuery</language>
+        </languages>
+        <descriptions>
+            <description>
+            Portfolio Website
+            </description>
+        </descriptions>
+    </project>
+
+    <project>
+        <universalname>OpenGLTD</universalname>
+        <name>OpenGL Tower Defense</name>
+        <category>OpenGL</category>
+        <languages>
+            <language>C</language>
+            <language>OpenGL</language>
+            <language>freeglut</language>
+            <language>GLEW</language>
+        </languages>
+        <descriptions>
+            <description>
+            OpenGL Tower Defense
             </description>
         </descriptions>
     </project>

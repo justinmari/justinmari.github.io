@@ -52,7 +52,7 @@ $(document).ready(function() {
                             '<div data-aos="fade-up" class="row div-project-details">' +
                             '<div class="col-lg col-md col-sm">' +
                             '<div>' +
-                            '<h3 class="project-details-heading">Languages Used</h3><hr>' +
+                            '<h3 class="project-details-heading">Languages | Libraries | Frameworks</h3><hr>' +
                             langs +
                             '<br><h3 class="project-details-heading">Description</h3><hr>' +
                             descs +

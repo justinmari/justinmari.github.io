@@ -38,7 +38,7 @@ canvas {
 /* ---------------------- */
 .screen-overlay {
     background-color: black;
-    opacity: 0.5;
+    opacity: 0.8;
     position: fixed;
     width: 100vw;
     height: 100vh;
@@ -109,6 +109,14 @@ div.navright {
     opacity: 0.3;
     border-radius: 10%;
     transition: 0.3s;
+}
+
+.bio-img {
+    width: 400px;
+    object-fit: cover;
+    border-radius: 10%;
+    transition: 0.3s;
+    margin: 0px 50px 50px 50px;
 }
 
 .proj-img:hover {
@@ -237,11 +245,24 @@ p.heading {
         font-size: 90px;
     }
 
+    .name-proj {
+        color: white;
+        font-size: 60px;
+    }
+
     .navlink-left {
         color: #c0b3a0;
         display: inline-block;
         transition: 0.3s;
         font-size: 35px;
+    }
+
+    .bio-img {
+        width: 250px;
+        object-fit: cover;
+        border-radius: 10%;
+        transition: 0.3s;
+        margin: 0px 50px 50px 50px;
     }
 }
 
@@ -274,11 +295,24 @@ p.heading {
         font-size: 100px;
     }
 
+    .name-proj {
+        color: white;
+        font-size: 80px;
+    }
+
     .navlink-left {
         color: #c0b3a0;
         display: inline-block;
         transition: 0.3s;
         font-size: 40px;
+    }
+
+    .bio-img {
+        width: 400px;
+        object-fit: cover;
+        border-radius: 10%;
+        transition: 0.3s;
+        margin: 0px 50px 50px 50px;
     }
 }
 
@@ -309,6 +343,11 @@ p.heading {
     .name {
         color: white;
         font-size: 110px;
+    }
+
+    .name-proj {
+        color: white;
+        font-size: 100px;
     }
 
     .navlink-left {
@@ -344,6 +383,11 @@ p.heading {
     }
 
     .name {
+        color: white;
+        font-size: 120px;
+    }
+
+    .name-proj {
         color: white;
         font-size: 120px;
     }
