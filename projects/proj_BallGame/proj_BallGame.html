@@ -77,58 +77,21 @@
         </div>
     </footer>
 
-    <!-- interactions -->
-    <script>
+    <!-- my scripts -->
+    <div id="scripts"></div>
 
-        var showNavX = 50;
-        var hideNavX = 250;
+    <!-- online scripts -->
+    <div>
+        <!-- aos -->
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
 
-        var navlinks = document.getElementsByClassName("navlink");
-
-        // on navlink click
-        for (i = 0; i < navlinks.length; i++) {
-            navlinks[i].addEventListener("click", hideNavLeft);
-        }
-
-        // onscroll
-        document.addEventListener("scroll", hideNavLeft);
-
-        function hideNavLeft() {
-            if (window.scrollY < window.innerHeight/2) {
-                document.getElementById("screen-overlay").style.visibility = "hidden";
-                document.getElementById("navleft").style.transform = "translate(0px, 0px)";
-            } else {
-                document.getElementById("screen-overlay").style.visibility = "hidden";
-                document.getElementById("navleft").style.transform = "translate(-1000px, 0px)";
-            }
-        }
-
-        // mouse move
-        document.addEventListener('mousemove', e => {
-            if (!(window.scrollY < window.innerHeight/2)) {
-                if (e.x < showNavX) {
-                    document.getElementById("screen-overlay").style.visibility = "visible";
-                    document.getElementById("navleft").style.transform = "translate(0px, 0px)";
-                } else if (e.x > hideNavX) {
-                    document.getElementById("screen-overlay").style.visibility = "hidden";
-                    document.getElementById("navleft").style.transform = "translate(-1000px, 0px)";
-                    
-                }
-            }
-        });
-
-    </script>
-
-    <!-- aos -->
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
-
-    <!-- jquery | popper | bootstrap -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <!-- jquery | popper | bootstrap -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </div>
 </body>
 
 
