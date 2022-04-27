@@ -240,4 +240,47 @@
         </descriptions>
     </project>
 
+    <project>
+        <universalname>VREscapeRoom</universalname>
+        <name>VR Escape Room</name>
+        <category>Unity</category>
+        <languages>
+            <language>C#</language>
+        </languages>
+        <descriptions>
+            <description>
+            Institution: Ryerson University, Department of Computer Science
+            </description>
+            <description>
+            Course: CPS643 Virtual Reality
+            </description>
+            <description>
+            YouTube: https://www.youtube.com/watch?v=_vqX5JhxFEc
+            </description>
+            <description>
+            This project was a final assignment for a virtual reality course.
+            Created using Unity Engine and Steam VR, this project demonstrates various aspects of virtual reality,
+            such as navigation, object selection/manipulation, and haptic feedback. These aspects aim to promote
+            the user's sense of immersion, which is what separates virtual reality from computer graphics
+            generated on a 2D screen.
+            </description>
+            <description>
+            Virtual reality aims to immerse a player in a virtual environment. To achieve this, I scaled objects
+            to match their real life sizes. Also, I used haptic vibrations when grabbing or interacting with objects,
+            allowing the user to feel a sense of touch inside the virtual environment. This project utilized
+            the Oculus Quest 2 using the 6DOF Oculus Touch controllers.
+            </description>
+            <description>
+            The choice of an escape room allowed me to apply what I have learned in the virtual reality course
+            to my knowledge in Unity game development. The most notable feature that I have implemented is the lock system
+            I made crom scratch. The system allows for easily creating new types of mechanics when locking and unlocking
+            objects; ones I have implemented are a Key/Lock, Codelock, and Multilock system.
+            </description>
+            <description>
+            On the game development side of things, I have implemented a few mechanics such as a morse code emitter
+            and a logic toggle puzzle.
+            </description>
+        </descriptions>
+    </project>
+
 </projects>
