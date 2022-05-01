@@ -215,6 +215,10 @@ p.heading {
     color: white;
 }
 
+h6.resume-subheading {
+    margin: 0px 0px 10px 0px;
+}
+
 .resume-date {
     font-family: 'EB Garamond', serif;
     font-weight: bold;
