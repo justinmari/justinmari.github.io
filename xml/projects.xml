@@ -283,4 +283,56 @@
         </descriptions>
     </project>
 
+    <project>
+        <universalname>DiscordGroceryBot</universalname>
+        <name>Discord Grocery Bot</name>
+        <category>discord.py</category>
+        <languages>
+            <language>Python</language>
+            <language>discord.py</language>
+        </languages>
+        <descriptions>
+            <description>
+            There are so many reasons why I NEEDED to create this.
+            </description>
+            <description>
+            Reason 1: I or a family member forget to bring the grocery list after arriving at the grocery store.
+            You have no idea how many times my mother who hath birthed me had to try and remember what she put
+            on the list. Not to mention if I had something on the list that she didn't even know about, and that I
+            forgot about.
+            </description>
+            <description>
+            Reason 2: Having to call each family member to ask if there is anything they need from the store. Oh the
+            long phone calls whilst staring at a random aisle, I will not miss you.
+            </description>
+            <description>
+            Reason 3: Having to write. Writing is so much work. First, you need to find the grocery list. Then, you
+            need to find something to write with. Finally, you have to write. So many things can go wrong with this.
+            The list could be misplaced. The list could be the wrong list. You run out of papers to write the list on.
+            There is not writing tool in sight. The pen runs out of ink. The pencil lead breaks, and there is no
+            sharpener or extra lead. You make a spelling mistake, and there's not eraser. Now you scribbled out
+            the word and you rewrite it again, just to make another mistake. Now the list is ugly. Tragic.
+            </description>
+            <description>
+            Reason 4: Save the trees.
+            </description>
+            <description>
+            As a lazy programmer person thing, I decided to make things easier for everyone and created a discord bot
+            for a grocery list. Not only does it fix most of these problems, but pads my resum- I mean, allows me to explore 
+            discord.py. Thank you Discord for keeping me sane in the midst of the COVID pandemic.
+            </description>
+            <description>
+            I've extended this bot to use TinyDB, a lightweight NoSQL library developed in Python. Using a database, I'm able
+            to create multiple grocery lists for different servers.
+            </description>
+            <description>
+            I plan to add an undo action, as well as other features that could furhter simplify the UI/UX of the bot. I also
+            plan to create another bot which shows a list of upcoming events, so discord groups don't have to constantly
+            ask members if they are up to anything in the coming days or weeks. Would be useful for planning around other
+            people's plans. I know Discord already has this feature in the form of Events, but it's not the most user friendly.
+            I want to make something anyone can use and is easy to learn. Pack it with features, but streamline the UI/UX.
+            </description>
+        </descriptions>
+    </project>
+
 </projects>
